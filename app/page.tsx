@@ -23,12 +23,10 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Empowering Communities Through
-              <span className="text-green-400"> Sustainable Change</span>
+            Community Service Projects related to 
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
-              Creating lasting impact through community-driven projects in water access,
-              environmental restoration, and sustainable agriculture.
+            Plantation, Drinking water availability and water facilities, use of chemicals on fruits and vegetables.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -50,7 +48,7 @@ export default function Home() {
       </section>
 
       {/* Impact Stats */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Impact</h2>
@@ -66,7 +64,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Our Projects */}
       <section className="py-16">
@@ -93,7 +91,7 @@ export default function Home() {
       </section>
 
       {/* Mission Section */}
-      <section className="py-16 bg-gradient-to-r from-green-600 to-blue-600 text-white">
+      {/* <section className="py-16 bg-gradient-to-r from-green-600 to-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -130,10 +128,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Call to Action */}
-      <section className="py-16 bg-gray-900 text-white">
+      {/* <section className="py-16 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Make a Difference?</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
@@ -157,7 +155,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }

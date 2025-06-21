@@ -67,75 +67,47 @@ export const projectsData: ProjectData[] = [
     title: "Water Facilities & Drinking Water",
     slug: "water-facilities",
     description: "Ensuring access to clean and safe drinking water for rural communities through sustainable infrastructure development.",
-    heroImage: "https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    heroImage: "/images/waterfacilities/image.png",
     overview: {
       description: "This project focuses on establishing sustainable water infrastructure in underserved rural communities, addressing the critical need for clean drinking water access through community-driven solutions.",
       objectives: [
-        "Install 15 water filtration systems in rural villages",
-        "Train 50 community members in water system maintenance",
-        "Educate 500+ residents on water safety and hygiene",
-        "Establish 3 community water committees for ongoing management"
+        "Observed water facility systems and tanks",
+        "Educated residents on water safety and hygiene",
+        "Surveyed people and got feedback"
       ],
-      timeline: "March 2024 - September 2024 (6 months)",
-      location: "Rural districts of Madhya Pradesh, India",
-      beneficiaries: "1,200+ community members across 8 villages"
+      timeline: "19th May 2025 - 1st June 2025",
+      location: "Kanipaka Patnam, Chittoor",
+      beneficiaries: "1,200+ community members"
     },
     problemStatement: {
-      issue: "Over 60% of rural households lack access to clean drinking water, leading to waterborne diseases and health complications, particularly affecting children and elderly populations.",
+      issue: "Water facility systems observance and guiding residents on water safety and hygiene is crucial for preventing waterborne diseases and ensuring community health.",
       communityNeeds: [
         "Reliable access to clean drinking water",
         "Reduction in waterborne diseases",
-        "Time savings from long water collection journeys",
         "Improved overall community health and productivity"
       ],
-      currentSituation: "Communities rely on contaminated wells and distant water sources, with women and children walking 3-5 km daily for water collection.",
-      urgency: "Immediate intervention required due to rising cases of cholera and diarrheal diseases during monsoon season."
+      currentSituation: "Communities rely on limited water sources.",
+      urgency: "Using rust motors and immediate intervention needed to prevent further health crises and economic losses."
     },
     awarenessCampaign: {
       initiatives: [
-        "Village-level hygiene and sanitation workshops",
-        "Water quality testing demonstrations",
-        "Community health screenings",
-        "School-based education programs"
+        "Village-level hygiene and sanitation classes"
       ],
       methods: [
         "Interactive community meetings",
-        "Visual demonstration sessions",
-        "Peer-to-peer education programs",
-        "Local language informational materials"
+        "Peer-to-peer education programs"
       ],
       targetAudience: "Village heads, women's groups, school children, and health workers",
       materials: [
-        "Multilingual hygiene posters",
-        "Water testing kits for demonstrations",
-        "Educational booklets on water safety",
-        "Community health tracking charts"
       ],
-      reach: "850+ community members directly engaged across 8 villages"
+      reach: "Community members directly engaged in village"
     },
     alternatives: {
       solutions: [
-        {
-          title: "Bio-sand Filtration Systems",
-          description: "Low-cost, locally maintainable water filtration using natural sand and gravel layers",
-          implementation: "Community members trained to build and maintain systems using locally available materials"
-        },
-        {
-          title: "Rainwater Harvesting",
-          description: "Collection and storage of rainwater during monsoon season for year-round use",
-          implementation: "Installation of community tanks and individual household collection systems"
-        },
-        {
-          title: "Solar Water Disinfection",
-          description: "UV disinfection using solar energy to purify water naturally",
-          implementation: "Simple bottle-based SODIS method taught to all households"
-        }
+        
       ],
       naturalMethods: [
-        "Moringa seed water purification",
-        "Clay pot filtration systems",
-        "Boiling with fuel-efficient stoves",
-        "Natural coagulation using plant materials"
+        
       ],
       guidance: "All solutions designed for local implementation with minimal external dependency and maximum community ownership."
     },
@@ -143,19 +115,29 @@ export const projectsData: ProjectData[] = [
       methodology: "Pre and post-implementation surveys conducted with structured interviews, focus groups, and health assessments across participating villages.",
       responses: [
         {
-          question: "How has access to clean water improved your daily life?",
-          response: "Now my children don't fall sick frequently, and I can spend time on other productive activities instead of walking for water.",
-          respondent: "Sunita Devi, Village Resident"
+          question: "what is your primary source of drinking water?",
+          response: "Borewell",
+          respondent: ""
         },
         {
-          question: "What changes have you noticed in community health?",
-          response: "Cases of stomach problems have reduced by more than half since we started using the filtration systems.",
-          respondent: "Dr. Raj Kumar, Local Health Worker"
+          question: "how often do you face water shortage in your area?",
+          response: "Weekly",
+          respondent: ""
         },
         {
-          question: "How sustainable do you find the water systems?",
-          response: "The maintenance is simple, and our committee ensures everything runs smoothly. We feel confident managing it ourselves.",
-          respondent: "Mohan Singh, Water Committee Head"
+          question: "Is there drinking water available in your home throughout the day?",
+          response: "Yes It is there.",
+          respondent: ""
+        },
+        {
+          question: "Do you treat or purify your drinking water before consumption?",
+          response: "Yes using purifier",
+          respondent: ""
+        },
+        {
+          question: "Are there any public water tanks or hand pumps in your village?",
+          response: "Yes and they work properly",
+          respondent: ""
         }
       ],
       insights: [
@@ -211,27 +193,69 @@ export const projectsData: ProjectData[] = [
     gallery: [
       {
         id: "w1",
-        url: "https://images.pexels.com/photos/1111316/pexels-photo-1111316.jpeg?auto=compress&cs=tinysrgb&w=800",
+        url: "/images/waterfacilities/1.png",
         title: "Community Water System Installation",
         description: "Local technicians installing bio-sand filtration system"
       },
       {
         id: "w2",
-        url: "https://images.pexels.com/photos/1739855/pexels-photo-1739855.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title: "Water Quality Testing",
-        description: "Community members learning water testing procedures"
+        url: "/images/waterfacilities/2.png",
+        title: "Community Water System Installation",
+        description: "Local technicians installing bio-sand filtration system"
       },
       {
         id: "w3",
-        url: "https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title: "Training Session",
-        description: "Hygiene awareness workshop with village women"
+        url: "/images/waterfacilities/3.png",
+        title: "Community Water System Installation",
+        description: "Local technicians installing bio-sand filtration system"
       },
       {
         id: "w4",
-        url: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title: "Clean Water Access",
-        description: "Children accessing clean water from new facility"
+        url: "/images/waterfacilities/4.png",
+        title: "Community Water System Installation",
+        description: "Local technicians installing bio-sand filtration system"
+      },
+      {
+        id: "w5",
+        url: "/images/waterfacilities/5.png",
+        title: "Community Water System Installation",
+        description: "Local technicians installing bio-sand filtration system"
+      },
+      {
+        id: "w6",
+        url: "/images/waterfacilities/6.png",
+        title: "Community Water System Installation",
+        description: "Local technicians installing bio-sand filtration system"
+      },
+      {
+        id: "w7",
+        url: "/images/waterfacilities/7.png",
+        title: "Community Water System Installation",
+        description: "Local technicians installing bio-sand filtration system"
+      },
+      {
+        id: "w8",
+        url: "/images/waterfacilities/8.png",
+        title: "Community Water System Installation",
+        description: "Local technicians installing bio-sand filtration system"
+      },
+      {
+        id: "w9",
+        url: "/images/waterfacilities/9.png",
+        title: "Community Water System Installation",
+        description: "Local technicians installing bio-sand filtration system"
+      },
+      {
+        id: "w10",
+        url: "/images/waterfacilities/10.png",
+        title: "Community Water System Installation",
+        description: "Local technicians installing bio-sand filtration system"
+      },
+      {
+        id: "w11",
+        url: "/images/waterfacilities/11.png",
+        title: "Community Water System Installation",
+        description: "Local technicians installing bio-sand filtration system"
       }
     ]
   },
@@ -239,43 +263,36 @@ export const projectsData: ProjectData[] = [
     id: "2",
     title: "Plantation",
     slug: "plantation",
-    description: "Restoring ecological balance through community-driven reforestation and sustainable agriculture practices.",
+    description: "Understanding and analysing surroundings to plant which type of trees and plant them",
     heroImage: "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     overview: {
-      description: "A comprehensive reforestation initiative aimed at restoring degraded lands, improving air quality, and creating sustainable livelihood opportunities through community participation and environmental education.",
+      description: "Understanding and analysing surroundings to plant which type of trees and plant them",
       objectives: [
-        "Plant 5,000 native trees across 50 hectares of degraded land",
-        "Train 100 farmers in sustainable agriculture practices",
-        "Establish 5 community nurseries for ongoing plantation efforts",
-        "Create employment for 200+ community members in green initiatives"
+        "Plant Neem and Pongamia oil trees",
+        "Educate the villagers and bring awareness of deforestation and plantation"
       ],
-      timeline: "January 2024 - December 2024 (12 months)",
-      location: "Degraded agricultural lands in Karnataka, India",
-      beneficiaries: "2,500+ community members across 12 villages"
+      timeline: "3rd June - 14th June",
+      location: "kanipaka Patnam, Chittoor",
+      beneficiaries: "1200+ residents in village"
     },
     problemStatement: {
       issue: "Rapid deforestation and unsustainable farming practices have led to soil erosion, reduced rainfall, and declining agricultural productivity, threatening rural livelihoods and environmental stability.",
       communityNeeds: [
-        "Restoration of forest cover and biodiversity",
-        "Improved soil fertility and water retention",
-        "Sustainable income generation opportunities",
-        "Climate resilience and carbon sequestration"
+        "Awareness on deforestation and plantation",
+        "Planting Neem and pongamia oil trees",
       ],
-      currentSituation: "Over 70% of agricultural land shows signs of degradation, with declining crop yields and increased dependency on chemical fertilizers.",
-      urgency: "Critical intervention needed to prevent further environmental degradation and support community adaptation to climate change."
+      currentSituation: "Overall forestation is good but there is not much awareness of plantation and deforestation",
+      urgency: "Planting Neem, tulasi and pongamia oil trees along the road side to reduce the pollution and improve oxygen levels and providing shade for the people."
     },
     awarenessCampaign: {
       initiatives: [
-        "Environmental education programs in schools",
-        "Farmers' field schools on sustainable practices",
-        "Community tree plantation drives",
-        "Women's groups training on nursery management"
+        "Awareness on Deforestation and plantation among villagers ",
+        "Planted Neem and Pongamia oil trees along roadside",
+        "Planted trees in multiple places to improve plantation in crucial areas."
       ],
       methods: [
         "Participatory learning sessions",
-        "Demonstration plots and model farms",
-        "Community-based monitoring programs",
-        "Storytelling and cultural integration"
+        "Practical plantation of trees"
       ],
       targetAudience: "Farmers, students, women's groups, and local government officials",
       materials: [
@@ -316,19 +333,29 @@ export const projectsData: ProjectData[] = [
       methodology: "Comprehensive baseline and impact assessment through household surveys, soil testing, biodiversity monitoring, and participatory rural appraisal techniques.",
       responses: [
         {
-          question: "How has tree plantation affected your farming practices?",
-          response: "The trees provide shade for our crops and the soil has become more fertile. Our mango trees will give us additional income in a few years.",
+          question: "Do you agree 'Plantation is important'?",
+          response: "yes it is.",
           respondent: "Ramesh Gowda, Farmer"
         },
         {
-          question: "What environmental changes have you observed?",
-          response: "More birds are returning to our area, and we're getting better rainfall patterns. The air feels cleaner too.",
+          question: "Do you plant trees?",
+          response: "Yes I plant often.",
           respondent: "Lakshmi Devi, Women's Group Leader"
         },
         {
-          question: "How sustainable are these plantation efforts?",
-          response: "We've learned to manage our own nursery and can continue planting without external help. The community is committed.",
+          question: "What is the main reason that you plant trees?",
+          response: "We get oxygen, food purpose.",
           respondent: "Suresh Kumar, Village Head"
+        },
+        {
+          question:"Do you think we can survive without plants?",
+          response: "No we cannot. Plants are importat for huiman survival.",
+          respondent:""
+        },
+        {
+          question:"What will you do to protect trees?",
+          response:"I water them regularly and stop people from cutting them",
+          respondent:""
         }
       ],
       insights: [
@@ -384,27 +411,75 @@ export const projectsData: ProjectData[] = [
     gallery: [
       {
         id: "p1",
-        url: "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=800",
+        url: "/images/plantations/1.png",
         title: "Community Plantation Drive",
-        description: "Villagers participating in mass tree plantation event"
+        description: "Local volunteers planting trees in public spaces"
       },
       {
         id: "p2",
-        url: "https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title: "Nursery Management Training",
-        description: "Women learning seedling propagation techniques"
+        url: "/images/plantations/2.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
       },
       {
         id: "p3",
-        url: "https://images.pexels.com/photos/1263986/pexels-photo-1263986.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title: "Agroforestry Implementation",
-        description: "Farmers integrating trees with crop cultivation"
+        url: "/images/plantations/3.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
       },
       {
         id: "p4",
-        url: "https://images.pexels.com/photos/1459505/pexels-photo-1459505.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title: "Forest Restoration Results",
-        description: "Transformed landscape showing successful reforestation"
+        url: "/images/plantations/4.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
+      },
+      {
+        id: "p5",
+        url: "/images/plantations/5.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
+      },
+      {
+        id: "p6",
+        url: "/images/plantations/6.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
+      },
+      {
+        id: "p7",
+        url: "/images/plantations/7.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
+      },
+      {
+        id: "p8",
+        url: "/images/plantations/8.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
+      },
+      {
+        id: "p11",
+        url: "/images/plantations/11.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
+      },
+      {
+        id: "p12",
+        url: "/images/plantations/12.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
+      },
+      {
+        id: "p13",
+        url: "/images/plantations/13.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
+      },
+      {
+        id: "p14",
+        url: "/images/plantations/14.png",
+        title: "Community Plantation Drive",
+        description: "Local volunteers planting trees in public spaces"
       }
     ]
   },
@@ -417,38 +492,32 @@ export const projectsData: ProjectData[] = [
     overview: {
       description: "An initiative to reduce chemical pesticide dependency in fruit and vegetable farming through organic alternatives, farmer education, and market linkage development for safer, healthier produce.",
       objectives: [
-        "Reduce chemical pesticide use by 60% among 300 participating farmers",
-        "Train farmers in organic pest management and natural fertilizer production",
-        "Establish organic certification for 50 progressive farmers",
-        "Create direct market linkages for premium organic produce"
+        "Checking where the fruits and vegetables brough from",
+        "Awareness session on cleaning the fruits and vegetables",
+        "Importance of cleaning methods and learning them.",
       ],
-      timeline: "February 2024 - November 2024 (10 months)",
-      location: "Vegetable farming clusters in Punjab and Haryana, India",
-      beneficiaries: "3,000+ farmers and their families, plus consumers accessing safer produce"
+      timeline: "16th June 2025 - 21st June 2025",
+      location: "Kanipaka Patnam, Chittoor",
+      beneficiaries: "1250+ villagers across village"
     },
     problemStatement: {
       issue: "Excessive use of chemical pesticides and fertilizers in vegetable and fruit farming poses serious health risks to farmers and consumers while degrading soil health and contaminating water sources.",
       communityNeeds: [
         "Safe and effective alternatives to chemical pesticides",
-        "Training in organic farming methods and certification",
-        "Market access for premium organic produce",
-        "Health protection for farming families and consumers"
+        "Awareness on cleaning the vegetables and fruits"
       ],
-      currentSituation: "Farmers use 3-4 times the recommended chemical doses due to pest resistance, leading to health problems and environmental contamination.",
-      urgency: "Immediate action required due to rising cases of pesticide poisoning and increasing consumer demand for chemical-free produce."
+      currentSituation: "People Doesn't know how to clean properly of chemical fruits and vegetables.",
+      urgency: "Immediate action required to teach and learn them how to use and clean the vegetables and fruits for safe use."
     },
     awarenessCampaign: {
       initiatives: [
         "Health impact awareness sessions on chemical pesticide dangers",
-        "Organic farming demonstration plots and field days",
-        "Consumer awareness campaigns on chemical residue risks",
-        "Healthcare provider training on pesticide poisoning treatment"
+        "Awareness session on cleaning",
+        "Identifying where the fruits and vegetables",
       ],
       methods: [
-        "Farmer field schools with hands-on training",
-        "Health camps with pesticide exposure testing",
-        "Market-based consumer education campaigns",
-        "Digital platforms for knowledge sharing"
+        "Awareness session with hands-on training on cleaning",
+        "Chemical effect and organic vegetables importance session"
       ],
       targetAudience: "Vegetable farmers, agricultural workers, consumers, and healthcare providers",
       materials: [
@@ -457,7 +526,7 @@ export const projectsData: ProjectData[] = [
         "Market certification process manuals",
         "Health safety equipment distribution"
       ],
-      reach: "2,200+ farmers and 15,000+ consumers engaged in awareness programs"
+      reach: "100+ people engaged in awareness programs"
     },
     alternatives: {
       solutions: [
@@ -489,20 +558,31 @@ export const projectsData: ProjectData[] = [
       methodology: "Multi-phase assessment including baseline chemical usage surveys, health screenings, soil and produce testing, and market analysis conducted over 12-month period.",
       responses: [
         {
-          question: "How has reducing chemical use affected your crop quality and health?",
-          response: "My family's health has improved significantly, and surprisingly, my vegetables taste better and last longer in storage.",
-          respondent: "Gurpreet Singh, Vegetable Farmer"
+          question: "Do you use pesticides or chemicals on your vegetables and fruits?",
+          response: "Always without that our crop doesn't come well.",
+          respondent: "Grpreet Singh, Vegetable Farmer"
         },
         {
-          question: "What challenges did you face in transitioning to organic methods?",
-          response: "Initially, I was worried about pest damage, but the natural methods work well, and I save money on expensive chemicals.",
-          respondent: "Meera Devi, Organic Farmer"
+          question: "Are you aware of the potential health risks associated with chemical use on produce?",
+          response: "Very aware.",
+          respondent: "Grpreet Singh, Vegetable Farmer"
         },
         {
-          question: "How has the market responded to your organic produce?",
-          response: "Customers are willing to pay 20-30% more for certified organic vegetables, and demand is growing rapidly.",
-          respondent: "Rajesh Kumar, Farmer Producer Organization Leader"
+          question: "Have you noticed any difference in taste or quality in chemically grown and organically produced?",
+          response: "yes, Significant difference.",
+          respondent: "Grpreet Singh, Vegetable Farmer"
+        },
+        {
+          question: "How do you currently obtain your vegetables and fruits?",
+          response: "Market",
+          respondent: "Grpreet Singh, Vegetable Farmer"
+        },
+        {
+          question: "Would you support initiatives promoting reduced chemical use in farming?",
+          response: "Strongly support",
+          respondent: "Grpreet Singh, Vegetable Farmer"
         }
+
       ],
       insights: [
         "Health concerns primary motivator for chemical reduction",
@@ -557,27 +637,75 @@ export const projectsData: ProjectData[] = [
     gallery: [
       {
         id: "c1",
-        url: "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title: "Organic Farming Training",
-        description: "Farmers learning natural pest control methods"
+        url: "/images/chemicals/1.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
       },
       {
         id: "c2",
-        url: "https://images.pexels.com/photos/1458671/pexels-photo-1458671.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title: "Chemical-Free Vegetables",
-        description: "Fresh organic produce from participating farms"
+        url: "/images/chemicals/2.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
       },
       {
         id: "c3",
-        url: "https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title: "Soil Testing Session",
-        description: "Farmers testing soil health improvements"
+        url: "/images/chemicals/3.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
       },
       {
         id: "c4",
-        url: "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=800",
-        title: "Market Certification",
-        description: "Organic certification ceremony for successful farmers"
+        url: "/images/chemicals/4.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
+      },
+      {
+        id: "c5",
+        url: "/images/chemicals/5.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
+      },
+      {
+        id: "c6",
+        url: "/images/chemicals/6.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
+      },
+      {
+        id: "c7",
+        url: "/images/chemicals/7.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
+      },
+      {
+        id: "c8",
+        url: "/images/chemicals/8.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
+      },
+      {
+        id: "c9",
+        url: "/images/chemicals/9.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
+      },
+      {
+        id: "c10",
+        url: "/images/chemicals/10.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
+      },
+      {
+        id: "c11",
+        url: "/images/chemicals/11.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
+      },
+      {
+        id: "c12",
+        url: "/images/chemicals/12.png",
+        title: "Chemical Awareness Campaign",
+        description: "Demonstration on harmful effects of chemicals on food"
       }
     ]
   }
@@ -586,32 +714,48 @@ export const projectsData: ProjectData[] = [
 export const teamMembers = [
   {
     id: "1",
-    name: "Dr. Priya Sharma",
-    role: "Project Director",
+    name: "A. Bindhu",
+    role: "234M1A0501",
     image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400",
     bio: "Environmental scientist with 15+ years in community development",
     expertise: ["Community Engagement", "Environmental Policy", "Project Management"]
   },
   {
     id: "2",
-    name: "Rajesh Kumar",
-    role: "Field Coordinator",
+    name: "A. Likhitha",
+    role: "234M1A0509",
     image: "https://images.pexels.com/photos/3184416/pexels-photo-3184416.jpeg?auto=compress&cs=tinysrgb&w=400",
     bio: "Rural development specialist with extensive fieldwork experience",
     expertise: ["Rural Development", "Community Mobilization", "Training Programs"]
   },
   {
     id: "3",
-    name: "Sarah Johnson",
-    role: "Technical Advisor",
+    name: "E. Harshitha",
+    role: "234M1A0532",
     image: "https://images.pexels.com/photos/3184420/pexels-photo-3184420.jpeg?auto=compress&cs=tinysrgb&w=400",
     bio: "Water and sanitation engineer specializing in sustainable solutions",
     expertise: ["Water Systems", "Sustainable Technology", "Infrastructure Design"]
   },
   {
     id: "4",
-    name: "Anita Patel",
-    role: "Community Outreach Manager",
+    name: "G.S. Manisha",
+    role: "234M1A0536",
+    image: "https://images.pexels.com/photos/3184421/pexels-photo-3184421.jpeg?auto=compress&cs=tinysrgb&w=400",
+    bio: "Social worker focused on women's empowerment and community health",
+    expertise: ["Women's Empowerment", "Health Education", "Social Mobilization"]
+  },
+  {
+    id: "5",
+    name: "K. Bhavana",
+    role: "234M1A0550",
+    image: "https://images.pexels.com/photos/3184421/pexels-photo-3184421.jpeg?auto=compress&cs=tinysrgb&w=400",
+    bio: "Social worker focused on women's empowerment and community health",
+    expertise: ["Women's Empowerment", "Health Education", "Social Mobilization"]
+  },
+  {
+    id: "6",
+    name: "K. Maanisha",
+    role: "234M1A0556",
     image: "https://images.pexels.com/photos/3184421/pexels-photo-3184421.jpeg?auto=compress&cs=tinysrgb&w=400",
     bio: "Social worker focused on women's empowerment and community health",
     expertise: ["Women's Empowerment", "Health Education", "Social Mobilization"]

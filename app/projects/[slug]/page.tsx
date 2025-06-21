@@ -38,11 +38,11 @@ export default function ProjectPage({ params }: ProjectPageProps) {
         </div>
       </section>
 
-      <SectionNavigation />
+      {/* <SectionNavigation /> */}
 
       {/* Project Overview */}
       <ProjectSection id="overview" title="Project Overview">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
           <div className="lg:col-span-2">
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               {project.overview.description}
@@ -65,7 +65,8 @@ export default function ProjectPage({ params }: ProjectPageProps) {
               </div>
             </div>
           </div>
-          <div className="bg-gray-50 rounded-lg p-6">
+        </div>
+        <div className="bg-gray-50 rounded-lg p-6">
             <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
               <Target className="h-6 w-6 text-green-600 mr-2" />
               Key Objectives
@@ -79,7 +80,6 @@ export default function ProjectPage({ params }: ProjectPageProps) {
               ))}
             </ul>
           </div>
-        </div>
       </ProjectSection>
 
       {/* Problem Statement */}
@@ -112,7 +112,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
 
       {/* Awareness Campaign */}
       <ProjectSection id="awareness" title="Awareness Campaign">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
           <div>
             <div className="bg-white rounded-lg shadow-md p-6 mb-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Key Initiatives</h3>
@@ -130,7 +130,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
               <p className="text-blue-800">{project.awarenessCampaign.targetAudience}</p>
               <div className="mt-4 text-center">
                 <div className="text-2xl font-bold text-blue-600">{project.awarenessCampaign.reach}</div>
-                <div className="text-blue-700">People Reached</div>
+                {/* <div className="text-blue-700">People Reached</div> */}
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                 ))}
               </div>
             </div>
-            <div className="bg-white rounded-lg shadow-md p-6">
+            {/* <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Materials Developed</h3>
               <ul className="space-y-2">
                 {project.awarenessCampaign.materials.map((material, index) => (
@@ -155,13 +155,13 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </ProjectSection>
 
       {/* Alternatives Suggested */}
-      <ProjectSection id="alternatives" title="Alternatives Suggested">
+      {/* <ProjectSection id="alternatives" title="Alternatives Suggested">
         <div className="space-y-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {project.alternatives.solutions.map((solution, index) => (
@@ -189,31 +189,27 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             </div>
           </div>
         </div>
-      </ProjectSection>
+      </ProjectSection> */}
 
       {/* Surveys & Interviews */}
       <ProjectSection id="surveys" title="Surveys & Interviews">
         <div className="space-y-8">
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Methodology</h3>
-            <p className="text-gray-700 leading-relaxed">{project.surveys.methodology}</p>
-          </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
             <div>
               <h3 className="text-xl font-semibold text-gray-900 mb-6">Community Feedback</h3>
               <div className="space-y-6">
                 {project.surveys.responses.map((response, index) => (
                   <div key={index} className="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-500">
                     <Quote className="h-6 w-6 text-blue-600 mb-3" />
-                    <p className="text-gray-800 italic mb-4">"{response.response}"</p>
-                    <p className="text-blue-700 font-semibold">— {response.respondent}</p>
+                    <p className="text-gray-800 italic mb-4">"{response.question}"</p>
+                    <p className="text-blue-700 font-semibold">— {response.response}</p>
                   </div>
                 ))}
               </div>
             </div>
             
-            <div>
+            {/* <div>
               <h3 className="text-xl font-semibold text-gray-900 mb-6">Key Insights</h3>
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
                 <ul className="space-y-3">
@@ -229,13 +225,13 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                 <h4 className="text-lg font-semibold text-green-900 mb-3">Analysis Summary</h4>
                 <p className="text-green-800">{project.surveys.analysis}</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </ProjectSection>
 
       {/* Outcomes & Learnings */}
-      <ProjectSection id="outcomes" title="Outcomes & Learnings">
+      {/* <ProjectSection id="outcomes" title="Outcomes & Learnings">
         <div className="space-y-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {project.outcomes.results.map((result, index) => (
@@ -284,7 +280,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             </div>
           </div>
         </div>
-      </ProjectSection>
+      </ProjectSection> */}
 
       {/* Photo Gallery */}
       <ProjectSection id="gallery" title="Photo Gallery">

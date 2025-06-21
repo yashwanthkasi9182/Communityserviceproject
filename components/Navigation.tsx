@@ -22,7 +22,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2">
             <Leaf className="h-8 w-8 text-green-600" />
-            <span className="text-xl font-bold text-gray-900">GreenCare Initiative</span>
+            <span className="text-xl font-bold text-gray-900">Community Service Project</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -43,60 +43,10 @@ export default function ContactPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Contact Information */}
-            <div className="lg:col-span-1 space-y-6">
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <div className="flex items-start space-x-4">
-                  <MapPin className="h-6 w-6 text-green-600 mt-1" />
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Our Office</h3>
-                    <p className="text-gray-600">
-                      123 Green Street<br />
-                      Eco City, IN 110001<br />
-                      India
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <div className="flex items-start space-x-4">
-                  <Phone className="h-6 w-6 text-green-600 mt-1" />
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
-                    <p className="text-gray-600">+91 98765 43210</p>
-                    <p className="text-gray-600">+91 87654 32109</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <div className="flex items-start space-x-4">
-                  <Mail className="h-6 w-6 text-green-600 mt-1" />
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
-                    <p className="text-gray-600">info@greencareinitiative.org</p>
-                    <p className="text-gray-600">projects@greencareinitiative.org</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-lg shadow-md p-6">
-                <div className="flex items-start space-x-4">
-                  <Clock className="h-6 w-6 text-green-600 mt-1" />
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Office Hours</h3>
-                    <p className="text-gray-600">
-                      Monday - Friday: 9:00 AM - 6:00 PM<br />
-                      Saturday: 10:00 AM - 4:00 PM<br />
-                      Sunday: Closed
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
 
             {/* Contact Form */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-3">
               <div className="bg-white rounded-lg shadow-md p-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
                 
@@ -143,27 +93,7 @@ export default function ContactPage() {
                       </div>
                     </div>
 
-                    <div>
-                      <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                        Subject *
-                      </label>
-                      <select
-                        id="subject"
-                        name="subject"
-                        required
-                        value={formData.subject}
-                        onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-colors duration-200"
-                      >
-                        <option value="">Select a subject</option>
-                        <option value="volunteer">Volunteer Opportunities</option>
-                        <option value="partnership">Partnership Inquiry</option>
-                        <option value="donation">Donation Information</option>
-                        <option value="project">Project Information</option>
-                        <option value="media">Media Inquiry</option>
-                        <option value="other">Other</option>
-                      </select>
-                    </div>
+                    
 
                     <div>
                       <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
@@ -197,7 +127,7 @@ export default function ContactPage() {
       </section>
 
       {/* Map Section */}
-      <section className="py-16 bg-gray-100">
+      {/* <section className="py-16 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Find Us</h2>
@@ -213,7 +143,7 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }

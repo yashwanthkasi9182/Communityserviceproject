@@ -53,10 +53,10 @@ export default function PhotoGallery({ images }: PhotoGalleryProps) {
                 className="object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <div className="p-4">
+            {/* <div className="p-4">
               <h4 className="font-semibold text-gray-900 mb-1">{image.title}</h4>
               <p className="text-sm text-gray-600">{image.description}</p>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>
